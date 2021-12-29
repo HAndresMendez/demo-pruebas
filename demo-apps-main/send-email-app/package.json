@@ -1,0 +1,16 @@
+{
+  "name": "send-email-app",
+  "version": "1.0.0",
+  "description": "A pretty simple Node.js application. It sends an email and says \"Hello!\". Pretty cool, huh?",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.7"
+  }
+}
